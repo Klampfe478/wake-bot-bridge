@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 export default async function handler(req, res) {
   const target = "https://317797e1-89aa-42d2-a9b6-c25cd8a0c982-00-3s387r4cb4eli.riker.replit.dev";
   try {
